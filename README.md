@@ -10,7 +10,13 @@ install_github("cdesterke/gpcr")
 
 ### description
 
-Starting from an imput human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment in first step as compared to human GPCR database, lastly updated in december 2022: https://www.guidetopharmacology.org/download.jsp. This initial step of enrichment performed with "gpcrcalc" function allows to output a result table with significance of each GPCR family found in your gene list. In second step you could output your enrichment results in barplot for "enrichment scores with "plotes" function and for negative log10 p-values with "plotnlp" function. In last step you can performed a GPCR network with Louvain communitie detection: fonction "gpcrnet".
+Starting from an imput human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment.
+
+- In a first step as compared to human GPCR database, lastly updated in december 2022: https://www.guidetopharmacology.org/download.jsp. This initial step of enrichment performed with "gpcrcalc" function allows to output a result table with significance of each GPCR family found in your gene list. 
+
+- In second step you could output your enrichment results in barplot for "enrichment scores with "plotes" function and for negative log10 p-values with "plotnlp" function. 
+
+- In last step you can performed a GPCR network with Louvain communitie detection: fonction "gpcrnet".
 
 ## code for processing analysis
 
