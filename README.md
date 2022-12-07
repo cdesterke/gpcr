@@ -16,7 +16,7 @@ Starting from an imput human gene list obtained by omics experiments this gpcr p
 
 - In second step you could output your enrichment results in barplot for "enrichment scores with "plotes" function and for negative log10 p-values with "plotnlp" function. 
 
-- In last step you can performed a GPCR network with Louvain communitie detection: fonction "gpcrnet".
+- In last step you can performed a GPCR network with Louvain communitie detection: fonction "gpcrnet". Significant families during the enrichment were represented with red edges and not significant families with gray edges. 
 
 ## code for processing analysis
 
@@ -29,6 +29,7 @@ custom<-c("TAS1R1","TAS2R3","TAS2R4","PTGDR","PTGDR2","PTGER1","PTGER2","P2RY4",
 res<-gpcrcalc(custom)
 res
 ```
+
 
 ![res](https://github.com/cdesterke/gpcr/blob/main/res.png)
 
@@ -59,5 +60,18 @@ gpcrnet(custom,res,layout=layout_as_star,cex=1,distance=2)
 ```
 ![default](https://github.com/cdesterke/gpcr/blob/main/netdefault.png)
 
+### custum the network with some parameters
 
+- cex parameter: change size of the vertex (nodes) label
 
+- distance parameter: change the distance between the vertex and its label
+
+- layout parameter: change the design of the network and have several options such as: (layout_as_star, layout_components, layout_in_circle, layout_nicely,layout_on_grid,
+layout_on_sphere, layout_randomly, layout_with_dh, layout_with_drl, layout_with_fr, layout_with_gem,
+layout_with_graphopt, layout_with_kk, layout_with_lgl, layout_with_mds)
+
+```r
+gpcrnet(custom,res,layout=layout_nicely,cex=0.8,distance=1.5)
+
+```
+![nicely](https://github.com/cdesterke/gpcr/blob/main/nicely.png)
