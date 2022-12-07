@@ -10,7 +10,7 @@ install_github("cdesterke/gpcr")
 
 ### description
 
-Starting from an imput human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment.
+Starting from an input human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment.
 
 - In a first step as compared to human GPCR database, lastly updated in december 2022: https://www.guidetopharmacology.org/download.jsp. This initial step of enrichment performs with "gpcrcalc" function allows to output a result table with significance of each GPCR family found in your gene list. 
 
