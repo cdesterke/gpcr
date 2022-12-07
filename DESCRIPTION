@@ -1,0 +1,15 @@
+Package: gpcr
+Type: Package
+Title: This package performs a GPCR geneset enrichment network starting from an input human gene list
+Version: 1.0.1
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: intersection with your input gene list and GPCR database gives an enrichment of
+    GPCR family identified in GPCR database
+License: GNU
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.1
