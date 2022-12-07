@@ -10,7 +10,7 @@ install_github("cdesterke/gpcr")
 
 ### description
 
-Starting from an input human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment.
+Starting from an imput human gene list obtained by omics experiments this gpcr package allows to perform a GPCR family enrichment.
 
 - In a first step as compared to human GPCR database, lastly updated in december 2022: https://www.guidetopharmacology.org/download.jsp. This initial step of enrichment performs with "gpcrcalc" function allows to output a result table with significance of each GPCR family found in your gene list. 
 
@@ -75,3 +75,12 @@ gpcrnet(custom,res,layout=layout_nicely,cex=0.8,distance=1.5)
 
 ```
 ![nicely](https://github.com/cdesterke/gpcr/blob/main/nicely.png)
+
+
+# REFERENCES
+
+> Pawson AJ, Sharman JL, Benson HE, Faccenda E, Spedding M, Harmar AJ. (2013) The Guide to PHARMACOLOGY portal - a one-stop pharmacology shop. The Biochemist. 35 (1): 36-39.
+
+> Kolb P, Kenakin T, Alexander SPH, Bermudez M, Bohn LM, Breinholt CS, Bouvier M, Hill SJ, Kostenis E, Martemyanov K, Neubig RR, Onaran HO, Rajagopal S, Roth BL, Selent J, Shukla AK, Sommer ME, Gloriam DE (2022) Community Guidelines for GPCR Ligand Bias: IUPHAR Review 32 Br J Pharmacol. 179(14):3651-3674. doi: 10.1111/bph.15811.  [PMID:35106752]
+
+
