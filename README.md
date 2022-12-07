@@ -20,6 +20,8 @@ Starting from an imput human gene list obtained by omics experiments this gpcr p
 
 ## code for processing analysis
 
+### compute enrichment
+
 ```r
 ##define a human gene list
 custom<-c("TAS1R1","TAS2R3","TAS2R4","PTGDR","PTGDR2","PTGER1","PTGER2","P2RY4","P2RY6","P2RY11","P2RY12","P2RY13","P2RY14","CXCR4","CXCR6","CXCL11","CXCR2","OPN1LW","OPN1MW","OPN1SW","RHO","OPN3","OPN4","OPN5")
@@ -29,3 +31,11 @@ res
 ```
 
 ![res](https://github.com/cdesterke/gpcr/blob/main/res.png)
+
+### barplot of enrichment scores
+
+```r
+plotes(res)
+
+```
+![es](https://github.com/cdesterke/gpcr/blob/main/es.png)
