@@ -1,5 +1,5 @@
 # gpcr
-R package to perform a GPCR network enrichment starting from a human gene list
+R package to perform a GPCR network enrichment starting from a human gene list obtained for example by omics experiment.
 
 
 ### package installation
