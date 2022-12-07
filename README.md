@@ -60,7 +60,7 @@ gpcrnet(custom,res,layout=layout_as_star,cex=1,distance=2)
 ```
 ![default](https://github.com/cdesterke/gpcr/blob/main/netdefault.png)
 
-### custum the network with some parameters
+### custom the network with some parameters
 
 - cex parameter: change size of the vertex (nodes) label
 
