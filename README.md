@@ -50,7 +50,14 @@ plotnlp(res)
 ![nlp](https://github.com/cdesterke/gpcr/blob/main/nlp.png)
 
 
+## network of GPCR enriched
+default parameters
 
+```r
+gpcrnet(custom,res,layout=layout_as_star,cex=1,distance=2)
+
+```
+![default](https://github.com/cdesterke/gpcr/blob/main/netdefault.png)
 
 
 
