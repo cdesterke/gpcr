@@ -27,3 +27,5 @@ custom<-c("TAS1R1","TAS2R3","TAS2R4","PTGDR","PTGDR2","PTGER1","PTGER2","P2RY4",
 res<-gpcrcalc(custom)
 res
 ```
+
+![res](https://github.com/cdesterke/gpcr/blob/main/res.png)
